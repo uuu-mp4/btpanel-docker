@@ -1,4 +1,4 @@
-FROM centos:7.8 AS base
+FROM centos:centos7.8.2003 AS base
 
 RUN yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 
